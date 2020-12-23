@@ -1,0 +1,36 @@
+# Ignore IntelliJ project meta-data
+.idea
+*.iml
+**/.idea
+**/*.iml
+
+# Ignore Eclipse project meta-data
+.project
+.classpath
+.settings
+.factorypath
+**/.project
+**/.classpath
+**/.settings
+
+# Ignore OSX specific files
+.DS_Store
+**/.DS_Store
+
+# Ignore logs
+logs/
+*.log
+**/*.log
+**/log/
+
+# Ignore Folders
+**/target
+
+# Ignore python cache files
+**/__pycache__/
+
+# ignore the sandbox directory (for personal use) (and its contents)
+/sandbox-personal/
+
+# ignore Test Results files
+/Test Results*
